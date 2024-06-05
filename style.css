@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.navItemBg {
+  background-color: #2db84c;
+}
+
+.navbar-nav {
+  flex: 1;
+  justify-content: center;
+}
+.login-btn:hover{
+  background-color: rgb(43, 40, 40);
+}
+.greenColor{
+  color: #2db84c;
+}
+.sec1Heading{
+  font-family: 'Roboto';
+  font-size: 9vh;
+}
+
+@media screen and (min-width: 1000px) {
+  .sec1Heading{font-size: 30px;}
+  #leftsidebar {width: 200px; float: left;}
+  #main {margin-left: 216px;}
+}
