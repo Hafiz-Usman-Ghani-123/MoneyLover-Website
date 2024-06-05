@@ -22,11 +22,30 @@ a{
 }
 .sec1Heading{
   font-family: 'Roboto';
-  font-size: 9vh;
+  font-size: 4vw;
 }
 
+
+
+
+
+/* media quries  */
+
 @media screen and (min-width: 1000px) {
-  .sec1Heading{font-size: 30px;}
+  /* .sec1Heading{font-size: 30px;} */
+
   #leftsidebar {width: 200px; float: left;}
   #main {margin-left: 216px;}
+}
+
+@media screen and (max-width: 767px) {
+.sec1Heading{text-align: center;}
+}
+
+@media screen and (max-width: 450px) {
+.sec1Heading{font-size: 10vw;}
+}
+
+@media screen and (min-device-width: 450px) and (max-device-width: 768px) { 
+    .sec1Heading{font-size: 7vw;}
 }
