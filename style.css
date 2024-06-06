@@ -3,8 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 .navItemBg {
   background-color: #2db84c;
@@ -14,38 +14,58 @@ a{
   flex: 1;
   justify-content: center;
 }
-.login-btn:hover{
+.login-btn:hover {
   background-color: rgb(43, 40, 40);
 }
-.greenColor{
-  color: #2db84c;
-}
-.sec1Heading{
-  font-family: 'Roboto';
+
+.sec1Heading {
+  font-family: "Roboto";
   font-size: 4vw;
 }
+/* section 2  */
+.moneyCard {
+  background-color: #2db84c;
+}
 
-
-
-
-
+/* section 3   */
+/* Colors */
+.greenColor {
+  color: #2db84c;
+}
+.greenBackground {
+  background-color: #2db84c;
+}
+.whiteColor{
+  color: white;
+}
 /* media quries  */
-
 @media screen and (min-width: 1000px) {
   /* .sec1Heading{font-size: 30px;} */
 
-  #leftsidebar {width: 200px; float: left;}
-  #main {margin-left: 216px;}
+  #leftsidebar {
+    width: 200px;
+    float: left;
+  }
+  #main {
+    margin-left: 216px;
+  }
 }
 
 @media screen and (max-width: 767px) {
-.sec1Heading{text-align: center;}
+  .sec1Heading {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 450px) {
-.sec1Heading{font-size: 10vw;}
+  .sec1Heading {
+    font-size: 10vw;
+  }
+  /* .savingIdeas{width: 70%;} */
 }
 
-@media screen and (min-device-width: 450px) and (max-device-width: 768px) { 
-    .sec1Heading{font-size: 7vw;}
+@media screen and (min-device-width: 450px) and (max-device-width: 768px) {
+  .sec1Heading {
+    font-size: 7vw;
+  }
 }
