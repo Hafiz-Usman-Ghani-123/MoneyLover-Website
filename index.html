@@ -1,357 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <!-- Roobot font link  -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
-      rel="stylesheet"
-    />
-    <!-- Bootstrap CSS -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <!-- font and icon bootstrap  -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <!-- my css link  -->
-    <link rel="stylesheet" href="style.css" />
-    <!-- Favicon link -->
-    <link
-      rel="shortcut icon"
-      href="android-chrome-192x192.png"
-      type="image/x-icon"
-    />
 
-    <title>Money Lover</title>
-  </head>
-  <body>
-    <!-- Navber  -->
-    <nav
-      class="navbar navbar-expand-lg navbar-dark navItemBg px-3 px-sm-4 px-md-5 sticky-top"
-    >
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="money-logo-transparent (1).png"
-            alt="MONEY LOVER "
-            width="100px"
-          />
-        </a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav fs-5">
-            <li class="nav-item mx-md-2">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item mx-md-2">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item mx-md-2">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item mx-md-2 dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdownMenuLink"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-              <ul
-                class="dropdown-menu"
-                aria-labelledby="navbarDropdownMenuLink"
-              >
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-          <div class="mt-3 my-lg-0 mb-2">
-            <a href="#" class="">
-              <img src="login-high-logo.png" alt="" width="90px" />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Roobot font link  -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
+    rel="stylesheet" />
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <!-- font and icon bootstrap  -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+  <!-- my css link  -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- Favicon link -->
+  <link rel="shortcut icon" href="android-chrome-192x192.png" type="image/x-icon" />
+
+  <title>Money Lover</title>
+</head>
+
+<body>
+  <!-- Navber  -->
+  <nav class="navbar navbar-expand-lg navbar-dark navItemBg px-3 px-sm-4 px-md-5 sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="money-logo-transparent (1).png" alt="MONEY LOVER " width="100px" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav fs-5">
+          <li class="nav-item mx-md-2">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item mx-md-2">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item mx-md-2 dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Our Courses
             </a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <!-- Section 01  -->
-
-    <div class="container my-5">
-      <div class="row">
-        <!-- left side div  -->
-        <div
-          class="col-12 col-md-6 d-flex align-items-center justify-content-md-start justify-content-center"
-        >
-          <h1 class="sec1Heading fw-normal">
-            <span class="greenColor">Simple way</span> <br />
-            To manage personal <br />
-            <span class="greenColor">Finances</span>
-          </h1>
-        </div>
-        <!--  right  side div  -->
-        <div
-          class="col-12 col-md-6 d-flex justify-content-md-end justify-content-center"
-        >
-          <img
-            class="rounded-circle border border-5 mt-3 mt-md-0"
-            src="https://img.freepik.com/free-vector/financial-management-design_23-2147668365.jpg"
-            alt=""
-            width="85%"
-            height="95%"
-          />
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Web Designing </a></li>
+              <li><a class="dropdown-item" href="#">Python Development</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="mt-3 my-lg-0 mb-2">
+          <a href="#" class="">
+            <img src="login-high-logo.png" alt="" width="90px" />
+          </a>
         </div>
       </div>
     </div>
+  </nav>
+  <!-- Section 01  -->
 
-    <!-- Section 02  -->
-    <div class="container">
-      <div class="moneyCard card col-12 text-white mb-3">
-        <!-- <div class="card-header text-uppercase">kch bhi  </div> -->
-        <div class="card-body text-uppercase">
-          <h5 class="card-title text-center fw-bold">Money Lover</h5>
-          <hr />
-          <p class="card-text text-center text-capitalize">
-            <span class="fw-bold">
-              "Do not save what is left after spending, but spend what is left
-              after saving." <br /><br
-            /></span>
-            This is also noted, "Money has never made man happy, nor will it.
-            The more of it one has, the more one wants," reminding us that true
-            contentment comes from more than just material wealth .
-          </p>
-        </div>
+  <div class="container my-5">
+    <div class="row">
+      <!-- left side div  -->
+      <div class="col-12 col-md-6 d-flex align-items-center justify-content-md-start justify-content-center">
+        <h1 class="sec1Heading fw-normal">
+          <span class="greenColor">Simple way</span> <br />
+          To manage personal <br />
+          <span class="greenColor">Finances</span>
+        </h1>
+      </div>
+      <!--  right  side div  -->
+      <div class="col-12 col-md-6 d-flex justify-content-md-end justify-content-center">
+        <img class="rounded-circle border border-5 mt-3 mt-md-0"
+          src="https://img.freepik.com/free-vector/financial-management-design_23-2147668365.jpg" alt="" width="85%"
+          height="95%" />
       </div>
     </div>
+  </div>
 
-    <!-- Section 3  -->
-    <div class="container">
-      <!-- heading of this section  -->
-      <!-- <h1 class="fw-bold sec2Heading text-center text-uppercase">
+  <!-- Section 02  -->
+  <div class="container">
+    <div class="moneyCard card col-12 text-white mb-3">
+      <!-- <div class="card-header text-uppercase">kch bhi  </div> -->
+      <div class="card-body text-uppercase">
+        <h5 class="card-title text-center fw-bold">Money Lover</h5>
+        <hr />
+        <p class="card-text text-center text-capitalize">
+          <span class="fw-bold">
+            "Do not save what is left after spending, but spend what is left
+            after saving." <br /><br /></span>
+          This is also noted, "Money has never made man happy, nor will it.
+          The more of it one has, the more one wants," reminding us that true
+          contentment comes from more than just material wealth .
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Section 3  -->
+  <div class="container">
+    <!-- heading of this section  -->
+    <!-- <h1 class="fw-bold sec2Heading text-center text-uppercase">
         Best Saving Idea's
       </h1> -->
-      <div class="col-12 d-flex justify-content-center my-4 my-sm-5">
-        <img
-          src="best-saving-ideaslogo-transparent.png"
-          alt=""
-          width="40%"
-          height="10%"
-          class="savingIdeas"
-        />
+    <div class="col-12 d-flex justify-content-center my-4 my-sm-5">
+      <img src="best-saving-ideaslogo-transparent.png" alt="" width="40%" height="10%" class="savingIdeas" />
+    </div>
+    <!-- accordians  -->
+    <div class="accordion" id="accordionPanelsStayOpenExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+          <button class="accordion-button fw-bold whiteColor greenBackground" type="button" data-bs-toggle="collapse"
+            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+            aria-controls="panelsStayOpen-collapseOne">
+            Stock Exchange
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+          aria-labelledby="panelsStayOpen-headingOne">
+          <div class="accordion-body">
+            <strong>This is the first item's accordion body.</strong> It is
+            shown by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control
+            the overall appearance, as well as the showing and hiding via CSS
+            transitions. <code>.accordion-body</code>, though the transition
+            does limit overflow.
+          </div>
+        </div>
       </div>
-      <!-- accordians  -->
-      <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button
-              class="accordion-button fw-bold whiteColor greenBackground"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseOne"
-              aria-expanded="true"
-              aria-controls="panelsStayOpen-collapseOne"
-            >
-              Stock Exchange
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseOne"
-            class="accordion-collapse collapse show"
-            aria-labelledby="panelsStayOpen-headingOne"
-          >
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is
-              shown by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. <code>.accordion-body</code>, though the transition
-              does limit overflow.
-            </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+          <button class="accordion-button fw-bold collapsed whiteColor greenBackground" type="button"
+            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseTwo">
+            Goverment Bonds
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingTwo">
+          <div class="accordion-body">
+            <strong>This is the second item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control
+            the overall appearance, as well as the showing and hiding via CSS
+            transitions. <code>.accordion-body</code>, though the transition
+            does limit overflow.
           </div>
         </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-            <button
-              class="accordion-button fw-bold collapsed whiteColor greenBackground"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseTwo"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseTwo"
-            >
-              Goverment Bonds
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseTwo"
-            class="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingTwo"
-          >
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. <code>.accordion-body</code>, though the transition
-              does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-            <button
-              class="accordion-button fw-bold collapsed whiteColor greenBackground"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#panelsStayOpen-collapseThree"
-              aria-expanded="false"
-              aria-controls="panelsStayOpen-collapseThree"
-            >
-              Saving And Fixed Account's
-            </button>
-          </h2>
-          <div
-            id="panelsStayOpen-collapseThree"
-            class="accordion-collapse collapse"
-            aria-labelledby="panelsStayOpen-headingThree"
-          >
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is
-              hidden by default, until the collapse plugin adds the appropriate
-              classes that we use to style each element. These classes control
-              the overall appearance, as well as the showing and hiding via CSS
-              transitions. <code>.accordion-body</code>, though the transition
-              does limit overflow.
-            </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+          <button class="accordion-button fw-bold collapsed whiteColor greenBackground" type="button"
+            data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+            aria-controls="panelsStayOpen-collapseThree">
+            Saving And Fixed Account's
+          </button>
+        </h2>
+        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+          aria-labelledby="panelsStayOpen-headingThree">
+          <div class="accordion-body">
+            <strong>This is the third item's accordion body.</strong> It is
+            hidden by default, until the collapse plugin adds the appropriate
+            classes that we use to style each element. These classes control
+            the overall appearance, as well as the showing and hiding via CSS
+            transitions. <code>.accordion-body</code>, though the transition
+            does limit overflow.
           </div>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- Footer  -->
-    <!-- Site footer -->
-    <footer class="site-footer mt-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h6>About</h6>
-            <p class="text-justify">
-              Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to
-              help the upcoming programmers with the code. Scanfcode focuses on
-              providing the most efficient code or snippets as the code wants to
-              be simple. We will help programmers build up concepts in different
-              programming languages that include C, C++, Java, HTML, CSS,
-              Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.
-            </p>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>Categories</h6>
-            <ul class="footer-links">
-              <li><a href="http://scanfcode.com/category/c-language/">C++</a></li>
-              <li>
-                <a href="http://scanfcode.com/category/front-end-development/"
-                  >UI Design</a
-                >
-              </li>
-              <li>
-                <a href="http://scanfcode.com/category/back-end-development/"
-                  >PHP</a
-                >
-              </li>
-              <li>
-                <a
-                  href="http://scanfcode.com/category/java-programming-language/"
-                  >Java</a
-                >
-              </li>
-              <li>
-                <a href="http://scanfcode.com/category/android/">Android</a>
-              </li>
-              <li>
-                <a href="http://scanfcode.com/category/templates/">Templates</a>
-              </li>
-            </ul>
-          </div>
-
-          <div class="col-xs-6 col-md-3">
-            <h6>Quick Links</h6>
-            <ul class="footer-links">
-              <li><a href="http://scanfcode.com/about/">About Us</a></li>
-              <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
-              <li>
-                <a href="http://scanfcode.com/contribute-at-scanfcode/"
-                  >Contribute</a
-                >
-              </li>
-              <li>
-                <a href="http://scanfcode.com/privacy-policy/"
-                  >Privacy Policy</a
-                >
-              </li>
-              <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
-            </ul>
-          </div>
+  <!-- Footer  -->
+  <!-- Site footer -->
+  <footer class="site-footer mt-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <h6>About</h6>
+          <p class="text-justify">
+            Scanfcode.com <i>CODE WANTS TO BE SIMPLE </i> is an initiative to
+            help the upcoming programmers with the code. Scanfcode focuses on
+            providing the most efficient code or snippets as the code wants to
+            be simple. We will help programmers build up concepts in different
+            programming languages that include C, C++, Java, HTML, CSS,
+            Bootstrap, JavaScript, PHP, Android, SQL and Algorithm.
+          </p>
         </div>
-        <hr />
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">
-              Copyright &copy; 2017 All Rights Reserved by
-              <a href="#">Scanfcode</a>.
-            </p>
-          </div>
 
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li>
-                <a class="facebook" href="#"><i class="bi bi-facebook"></i></a>
-              </li>
-              <li>
-                <a class="twitter" href="#"><i class="bi bi-twitter"></i></a>
-              </li>
-              <li>
-                <a class="dribbble" href="#"><i class="bi bi-whatsapp"></i></a>
-              </li>
-              <li>
-                <a class="linkedin" href="#"><i class="bi bi-linkedin"></i></i></a>
-              </li>
-            </ul>
-          </div>
+        <div class="col-xs-6 col-md-3">
+          <h6>Categories</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/category/c-language/">C++</a></li>
+            <li>
+              <a href="http://scanfcode.com/category/front-end-development/">UI Design</a>
+            </li>
+            <li>
+              <a href="http://scanfcode.com/category/back-end-development/">PHP</a>
+            </li>
+            <li>
+              <a href="http://scanfcode.com/category/java-programming-language/">Java</a>
+            </li>
+            <li>
+              <a href="http://scanfcode.com/category/android/">Android</a>
+            </li>
+            <li>
+              <a href="http://scanfcode.com/category/templates/">Templates</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-xs-6 col-md-3">
+          <h6>Quick Links</h6>
+          <ul class="footer-links">
+            <li><a href="http://scanfcode.com/about/">About Us</a></li>
+            <li><a href="http://scanfcode.com/contact/">Contact Us</a></li>
+            <li>
+              <a href="http://scanfcode.com/contribute-at-scanfcode/">Contribute</a>
+            </li>
+            <li>
+              <a href="http://scanfcode.com/privacy-policy/">Privacy Policy</a>
+            </li>
+            <li><a href="http://scanfcode.com/sitemap/">Sitemap</a></li>
+          </ul>
         </div>
       </div>
-    </footer>
-    <!--booststrap icons   -->
-    
-    <!-- Bootstrap Bundle with Popper -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-    <!-- My Js file link    -->
-    <script src="script.js"></script>
-  </body>
+      <hr />
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">
+            Copyright &copy; 2017 All Rights Reserved by
+            <a href="#">Scanfcode</a>.
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li>
+              <a class="facebook" href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li>
+              <a class="twitter" href="#"><i class="bi bi-twitter"></i></a>
+            </li>
+            <li>
+              <a class="dribbble" href="#"><i class="bi bi-whatsapp"></i></a>
+            </li>
+            <li>
+              <a class="linkedin" href="#"><i class="bi bi-linkedin"></i></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <!-- My Js file link    -->
+  <script src="script.js"></script>
+</body>
+
 </html>
